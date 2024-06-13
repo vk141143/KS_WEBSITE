@@ -1,0 +1,233 @@
+head-cont{
+    width: fit-content;
+}
+.head-cont img{
+    width: 110px;
+    height: 110px;
+    margin-left: 60px;
+    filter: drop-shadow(4px 6px 8px black);
+    border-radius: 0 20px;
+}
+.head-nav{
+    width:auto;
+   margin-left: 400px;
+   padding: 20px;
+   margin-top: -80px;
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+   justify-content: center; /* Aligns items horizontally */
+   align-items: center;   /* Aligns items vertically */
+  gap: 8px;
+}
+.cont-info{
+    border: 2px solid red;
+    width: 550px;
+    margin-left:490px;
+    margin-top: 177px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 90px;
+}
+.cont-info input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+
+}
+.cont-info button{
+    color: black;
+    text-decoration: none;
+    display: inline;
+    transition: .4s ease;
+}
+.cont-info button:hover{
+    background-color: orangered;
+    color: white;
+    transition: .5s;
+     
+}
+.head-nav a{
+    text-decoration: none;
+    color: black;
+    transition: .3s;
+}
+.head-nav i{
+    font-size: 25px;
+
+}
+.head-nav a:hover{
+    color:white;
+    background-color: black;
+    transition: .4s;
+    border-radius: 0 25px;
+    padding: 5px;
+}
+.contact{
+    padding: 5px;
+    width: 80px;
+    transition: .3s;
+}
+.contact:hover{
+    border-radius: 0 25px;
+    color: whitesmoke;
+    background-color: black;
+    transition: .3s;
+
+}
+.contact1{
+    width: 100%;
+    height: 110px;
+    /* background-color: gray; */
+    background-image: url(contact.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 0 10px;
+}
+.contact1 h1,p{
+    text-align: center;
+    color: white;
+}
+.contact{
+    width: 100%;
+}
+.contact h1,p{
+    text-align: center;
+    color: white;
+}
+.footer{
+    width: 1500px;
+    height: 450px;
+    background-color: #223333;
+    display: flex;
+    gap: 10px;
+}
+.about{
+    margin-top: 20px;
+    width: 400px;
+
+}
+.about h1{
+    margin-left: 45px;
+    transition: .4s;
+    
+}
+.about h1:hover{
+    transition: .2s;
+    transform: scale(1.1);
+    color: aqua;
+}
+.about h1,p{
+    color: whitesmoke;
+}
+.use{
+    margin-top: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.use a,h1{
+    text-decoration: none;
+    color: whitesmoke;
+    
+}
+.use h1:hover{
+    transition: .2s;
+    transform: scale(1.1);
+    color: aqua;
+}
+.ser{
+    margin-top: 20px;
+    width: 300px;
+    text-align: center;
+}
+.ser h1{
+    margin-left: -95px;
+    color: whitesmoke;
+}
+.ser h1:hover{
+    transition: .2s;
+    transform: scale(1.1);
+    color: aqua;
+}
+.ser a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.cont{
+    margin-top: 20px;
+    width: 400px;
+}
+.cont h1:hover{
+    transition: .2s;
+    transform: scale(1.1);
+    color: aqua;
+}
+.cont i{
+    font-size: 40px;
+    color: gold;
+}
+.cont i:hover{
+    cursor: pointer;
+    transform: scale(1.1,1.1);
+    color: whitesmoke;
+}
+.cont p{
+    color: whitesmoke;
+}
+.social{
+    margin-top: 20px;
+}
+.social i{
+    margin-left: 80px;
+    cursor: pointer;
+    color: aliceblue;
+    font-size: 24px;
+}
+.social i:hover{
+    color: goldenrod;
+}
+.social h1{
+    font-size: 28px;
+    color: whitesmoke;
+}
+.social h1:hover{
+    transition: .2s;
+    transform: scale(1.1);
+    color: aqua;
+}
+.p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+}
+.name{
+    display: flex;
+    margin-top: -6px;
+}
+.name p{
+    transition: .4s;
+}
+.name p:hover{
+    transition: .5s;
+    transform: scale(2.2);
+    color: aqua;
+}
+.special {
+    text-align: center;
+    margin-top: 15px;
+}
+.special a{
+    text-decoration: none;
+    color: black;
+    transition: .5s;
+    display: inline;
+    padding: 5px;
+}
+.special a:hover{
+    background-color: orangered;
+    color: white;
+    border-radius: 10px 0;
+}

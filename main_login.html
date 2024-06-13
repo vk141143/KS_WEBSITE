@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+    <link rel="stylesheet" href="main_login.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <div class="home">
+    <a href="main_page.html"><i class='bx bx-home'></i></a>
+  </div>
+    <div class="center">
+        <h1>Login</h1>
+        <form id="login-form" onsubmit="event.preventDefault(); LoginUser()">
+          <div class="txt_field">
+            <input type="text" id="username" name="username" required>
+            <span></span>
+            <label for="name">Username</label>
+          </div>
+          <div class="txt_field">
+            <input type="password" id="password" name="password" required>
+            <span></span>
+            <label>Password</label>
+          </div>
+          <div class="pass"><a href="login_otp.html">Forgot Password?</a></div>
+          <input type="submit" value="Login" onclick="alert('login successful')" id="login">
+          <div class="signup_link">
+            Not a member? <a href="main-signup.html">Signup</a>
+          </div>
+          <div id="errorMessage" style="color: red"></div>
+        </form>
+    </div>
+    <script>
+       function LoginUser() {
+            alert("Login successful");
+            window.location.href = "main_page.html";
+        }
+
+    </script>
+</body>
+</html>
